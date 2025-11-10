@@ -1,0 +1,4 @@
+Revise regex
+Practice file I/O
+Win debate
+Optimize Arch Linux
