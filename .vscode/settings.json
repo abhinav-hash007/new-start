@@ -2,21 +2,6 @@
     "sqltools.connections": [
         {
             "mysqlOptions": {
-                "authProtocol": "xprotocol",
-                "enableSsl": "Disabled"
-            },
-            "ssh": "Disabled",
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 3306,
-            "driver": "MariaDB",
-            "name": "name",
-            "group": "namegroup",
-            "database": "(optional)",
-            "username": "root"
-        },
-        {
-            "mysqlOptions": {
                 "authProtocol": "default",
                 "enableSsl": "Disabled"
             },
@@ -28,69 +13,6 @@
             "name": "name",
             "database": "\" \"",
             "username": "root"
-        },
-        {
-            "mysqlOptions": {
-                "authProtocol": "default",
-                "enableSsl": "Disabled"
-            },
-            "ssh": "Disabled",
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 3306,
-            "driver": "MariaDB",
-            "name": "firstconnection",
-            "group": "G1",
-            "database": "ranch",
-            "username": "harsh"
-        },
-        {
-            "mysqlOptions": {
-                "authProtocol": "default",
-                "enableSsl": "Disabled"
-            },
-            "ssh": "Disabled",
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 3306,
-            "driver": "MySQL",
-            "name": "name",
-            "group": "group1",
-            "database": "base1",
-            "username": "harsh",
-            "connectionTimeout": 20000
-        },
-        {
-            "mysqlOptions": {
-                "authProtocol": "default",
-                "enableSsl": "Disabled"
-            },
-            "ssh": "Disabled",
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 3306,
-            "driver": "MariaDB",
-            "name": "name",
-            "group": "G1",
-            "database": "\" \",",
-            "username": "\"root\"",
-            "connectionTimeout": 10000
-        },
-        {
-            "mysqlOptions": {
-                "authProtocol": "default",
-                "enableSsl": "Disabled"
-            },
-            "ssh": "Disabled",
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 3306,
-            "driver": "MySQL",
-            "name": "MySQL",
-            "database": "learnsql",
-            "username": "root",
-            "password": "abhinav007",
-            "connectionTimeout": 30
         }
     ]
 }
