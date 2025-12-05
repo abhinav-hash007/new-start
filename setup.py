@@ -50,8 +50,3 @@
 #         cursor.close()
 #         connection.close()
 #         print("🔒 Connection closed.")
-import mysql connector 
-a = ("tiger is something")
-b = ("tiger is sonething")
-c = ("tiger is something")
-d = ("")
